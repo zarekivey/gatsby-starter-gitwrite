@@ -1,10 +1,11 @@
 import React from "react"
+import Layout from '../components/layout.js'
 
 const Index = () => {
   return (
-    <div>
-      <h1>This is the index page.</h1>
-    </div>
+    <Layout>
+       <h1>This is the index page.</h1>
+    </Layout>
   )
 }
 
